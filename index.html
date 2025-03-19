@@ -28,6 +28,86 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://hakanemiratlas.github.io/reports/favicon-google-ads-180.png">
 </head>
 
+    <header>
+    <div class="header-container">
+        <img src="https://raw.githubusercontent.com/hakanemiratlas/reports/main/google_ads_logo-mds.png" alt="Google Ads Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Raporlar</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<style>
+    /* Sticky Header */
+    header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    /* Header İçeriği */
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+
+    /* Logo */
+    header img {
+        height: 50px;
+    }
+
+    /* Menü */
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #007bff;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .header-container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        nav ul {
+            flex-direction: column;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 5px 0;
+        }
+    }
+</style>
+
 
     <style>
         body {
