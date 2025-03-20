@@ -1,9 +1,4 @@
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Ads Kampanya Raporu</title>
-    <link rel="icon" type="image/png" href="https://hakanemiratlas.github.io/reports/favicon-google-ads-48.png">
-
-        <!-- Open Graph Meta Tags for Facebook and other platforms -->
+    <!-- Open Graph Meta Tags for Facebook and other platforms -->
     <meta property="og:title" content="Çikolata Anaokulu Google Ads Kampanya Raporu: 10-19 Mart 2025">
     <meta property="og:description" content="Okulunuzun Google Ads kampanya raporunu görüntüleyin. 10-19 Mart 2025 tarihleri arasındaki performans verilerini burada bulabilirsiniz.">
     <meta property="og:image" content="https://raw.githubusercontent.com/hakanemiratlas/reports/main/google-url-onizleme.jpg">
