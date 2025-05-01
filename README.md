@@ -1,4 +1,4 @@
-# Çikolata Anaokulu Google Ads Kampanya Raporu: 01-30 Nisan 2025
+# Çikolata Anaokulu Google Ads Kampanya Raporu
 
 Okulunuzun 01-30 Nisan 2025 tarihleri arasındaki performans verilerini inceleyin.
 
