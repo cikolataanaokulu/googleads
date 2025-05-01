@@ -1,6 +1,6 @@
 # Çikolata Anaokulu Google Ads Kampanya Raporu: 01-30 Nisan 2025
 
-Okulunuzun **Google Ads** kampanya raporunu görüntüleyin. 01-30 Nisan 2025 tarihleri arasındaki performans verilerini burada bulabilirsiniz.
+Okulunuzun 01-30 Nisan 2025 tarihleri arasındaki performans verilerini inceleyin.
 
 ![Google Ads Raporu Görseli](https://github.com/cikolataanaokulu/googleads/blob/main/google-url-onizleme.jpg)
 
