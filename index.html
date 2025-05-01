@@ -133,7 +133,7 @@
 
         <!-- Görsellerin yerleştirildiği grid -->
         <div class="grid">
-            <div class="card"><img src="https://raw.githubusercontent.com/cikolataanaokulu/googleads/main/Nisan-2025-1-Zaman_serisi.png" alt="Zaman Serisi"></div>
+            <div class="card"><img src="https://raw.githubusercontent.com/cikolataanaokulu/googleads/main/Nisan-2025-1-Zaman_serisi-2.png" alt="Zaman Serisi"></div>
             <div class="card"><img src="https://raw.githubusercontent.com/cikolataanaokulu/googleads/main/Nisan-2025-2-Demografi.png" alt="Demografi"></div>
             <div class="card"><img src="https://raw.githubusercontent.com/cikolataanaokulu/googleads/main/Nisan-2025-3-Cihazlar.png" alt="Cihazlar"></div>
             <div class="card"><img src="https://raw.githubusercontent.com/cikolataanaokulu/googleads/main/Nisan-2025-3-Kampanyalar.png" alt="Kampanyalar"></div>
@@ -143,19 +143,6 @@
             <div class="card"><img src="https://raw.githubusercontent.com/cikolataanaokulu/googleads/main/Nisan-2025-7-En_çok_gösterilen_reklamlar.png" alt="En Çok Gösterilen Reklamlar"></div>
             <div class="card"><img src="https://raw.githubusercontent.com/cikolataanaokulu/googleads/main/Nisan-2025-8-Faturalandırma.png" alt="Faturalandırma"></div>
         </div>
-
-        <!-- Danışmanlık Zaman Çizelgesi -->
-        <div class="timeline-box">
-            <h2>Danışmanlık Zaman Çizelgesi</h2>
-            <div class="stat" id="currentDay"></div>
-            <div class="progress-bar">
-                <div class="progress" id="progressBar" style="width: 0%">0%</div>
-            </div>
-            <div class="stat" id="spent"></div>
-            <div class="stat" id="daysLeft"></div>
-        </div>
-    </div>
-
     <footer>
         <p>AWA Branding Agency | Digital Partner | Google ID: 42692</p>
         <p><b>Bizimle İletişime Geçin:</b> 
@@ -176,27 +163,5 @@
             </a>
         </p>
     </footer>
-
-    <script>
-        const startDate = new Date("2025-04-01"); // Başlangıç tarihi
-        const totalDays = 90; // 3 ay
-        const dailyAdSpend = 100; // TL cinsinden günlük reklam harcaması
-
-        const today = new Date();
-        const diffTime = Math.max(today - startDate, 0);
-        const passedDays = Math.min(Math.floor(diffTime / (1000 * 60 * 60 * 24)), totalDays);
-        const remainingDays = totalDays - passedDays;
-        const totalSpent = passedDays * dailyAdSpend;
-        const progressPercent = Math.round((passedDays / totalDays) * 100);
-
-        document.getElementById("currentDay").innerText = `Bugün danışmanlığın ${passedDays + 1}. günü.`;
-        document.getElementById("spent").innerText = `Şu ana kadar toplam reklam harcaması: ${totalSpent.toLocaleString()} TL`;
-        document.getElementById("daysLeft").innerText = `Kalan gün sayısı: ${remainingDays}`;
-
-        const progressBar = document.getElementById("progressBar");
-        progressBar.style.width = `${progressPercent}%`;
-        progressBar.innerText = `${progressPercent}%`;
-    </script>
-
 </body>
 </html>
