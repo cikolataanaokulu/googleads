@@ -2,7 +2,7 @@
 
 Okulunuzun **Google Ads** kampanya raporunu görüntüleyin. 01-30 Nisan 2025 tarihleri arasındaki performans verilerini burada bulabilirsiniz.
 
-![Google Ads Raporu Görseli](https://raw.githubusercontent.com/cikolataanaokulu/googleads/main/google-url-onizleme.jpg)
+![Google Ads Raporu Görseli](https://github.com/cikolataanaokulu/googleads/blob/main/google-url-onizleme.jpg)
 
 ## Proje Açıklaması
 
