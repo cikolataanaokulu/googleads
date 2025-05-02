@@ -153,14 +153,88 @@
     </div>
   </div>
 
+    <!-- Danışmanlık Zaman Çizelgesi (Footer Üstü) -->
+<div class="timeline-wrapper">
+  <div class="timeline-content">
+    <div><strong>Başlangıç:</strong> 10.03.2025</div>
+    <div><strong>Bugün:</strong> 29. gün</div>
+    <div><strong>Kalan:</strong> 61 gün</div>
+    <div><strong>Harcanan:</strong> 2.900 TL</div>
+    <div class="progress-container">
+      <div class="progress-bar">
+        <div class="progress" style="width: 32%;"></div>
+      </div>
+      <span class="progress-text">32%</span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .timeline-wrapper {
+    background-color: #f5f5f5;
+    padding: 16px 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+  }
+
+  .timeline-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .timeline-content > div {
+    white-space: nowrap;
+  }
+
+  .progress-container {
+    flex: 1 1 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+  }
+
+  .progress-bar {
+    flex-grow: 1;
+    background-color: #ddd;
+    border-radius: 4px;
+    height: 8px;
+    overflow: hidden;
+  }
+
+  .progress {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 4px;
+  }
+
+  .progress-text {
+    min-width: 35px;
+    text-align: right;
+    color: #333;
+  }
+
+  @media (max-width: 600px) {
+    .timeline-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .progress-container {
+      flex-direction: column
+
 <footer style="text-align: center; padding: 20px;">
   <p>© 2019-2025 AWA Branding Agency | Tüm hakları saklıdır.
     <a href="https://agency.atlaswebarts.com" target="_blank"></a>
   </p><br>
   <img src="https://raw.githubusercontent.com/cikolataanaokulu/googleads/main/certified.png" alt="" style="max-height: 28px; margin-top: 10px;">
 </footer>
-
-
 
 </body>
 </html>
